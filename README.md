@@ -405,6 +405,33 @@ print(f"Заканчивается на 'end': {ends_with_end}")
 ## Самостоятельная работа №5
 ### Настройка .gitignore
 
+string = 'hello'
+
+memory = ' world'
+
+counter = 0
+
+values = [0, 2, 4, 6, 8, 10]
+
+while counter != 10:
+
+if counter in values:
+
+print(string + memory)
+
+else:
+
+print(string)
+
+counter += 1
+
+string = string + ' world'
+
+memory = string
+
+print(memory)
+
+
 ### Результат.
 ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_15.png)
 
