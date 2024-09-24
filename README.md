@@ -38,7 +38,7 @@ else:
     print("Не выполняется")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/git_scrin.png)
 
 ## Выводы
 
