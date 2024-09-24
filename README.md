@@ -1,104 +1,3 @@
-
-# Тема 3. Операторы, условия, циклы
-Отчет по Теме #3 выполнил(а):
-- Герасимов Никита Викторович
-- ПИЭ-22-1
-
-| Задание | Лаб_раб | Сам_раб |
-| ------ | ------ | ------ |
-| Задание 1 | + | + |
-| Задание 2 | + | + |
-| Задание 3 | + | + |
-| Задание 4 | + | + |
-| Задание 5 | + | + |
-| Задание 6 | + |
-| Задание 7 | + |
-| Задание 8 | + |
-| Задание 9 | + |
-| Задание 10 | + |
-
-
-знак "+" - задание выполнено; знак "-" - задание не выполнено;
-
-Работу проверили:
-- к.э.н., доцент Панов М.А.
-
-## Лабораторная работа №1
-### Создайте две переменные, значение которых будете вводить через консоль. Также составьте условие, в котором созданные ранее переменные будут сравниваться, если условие выполняется, то выведете в консоль «Выполняется», если нет, то «Не выполняется».
-
-one = int(input("Введите значение первой переменной: "))
-
-two = int(input("Введите значение второй переменной: "))
-
- if one >= two: 
- 
-    print("Выполняется")
- 
- else: 
- 
-    print("Не выполняется")
-    
-### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_1.png)
-
-## Выводы
-
-Реализован ввод двух переменных и вывод соответствующего сообщения при проверке на условие
-
-## Лабораторная работа №2
-### Напишите программу, которая будет определять значения переменной меньше 0, больше 0 и меньше 10 или больше 10. Это нужно реализовать при помощи одной переменной, значение которой будет вводится через консоль, а также при помощи конструкций if, elif, else.
-
-one = int(input("Введите значение переменной: "))
-
-if one < 0:
-    print("Переменная меньше 0")
-elif 0 < one < 10:
-    print("Переменная больше 0 и меньше 10")
-else:
-    print("Переменная больше 10")
-
-### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_2.png)
-
-## Выводы
-
-Условиями, с помощью if, elif, else проверяем в каком диапозоне число
-
-## Лабораторная работа №3
-### Напишите программу, в которой будет проверяться есть ли переменная в указанном массиве используя логический оператор in. Самостоятельно посмотрите, как работает программа со значениями которых нет в массиве numbers.
-
-numbers = [1, 3, 4, 6, 8, 9]
-
-value = int(input("Введите значение переменной "))
-
-if value in numbers:
-
-    print("Переменная есть в этом массиве")
-    
-else:
-
-    print("Переменной нет в этом массиве")
-    
-### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_3.png)
-
-## Выводы
-
-Проверяем есть ли введенное число в массиве с помощью if value in
-
-## Лабораторная работа №4
-### Напишите программу, которая будет определять находится ли переменная в указанном массиве и если да, то проверьте четная она или нет. Самостоятельно протестируйте данную программу с разными значениями переменной value.
-
-numbers = [1, 3, 4, 6, 8, 9, 15, 16, 73, 321, 322]
-
-value = int(input("Введите значение переменной "))
-
-if value in numbers:
-... (осталось: 314 строк)
-Свернуть
-message.txt
-17 кб
-﻿
 # Тема 3. Операторы, условия, циклы
 Отчет по Теме #3 выполнил(а):
 - Герасимов Никита Викторович
@@ -139,7 +38,7 @@ else:
     print("Не выполняется")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin1.png)
 
 ## Выводы
 
@@ -163,8 +62,7 @@ else:
     print("Переменная больше 10")
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_2.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin2.png)
 ## Выводы
 
 Условиями, с помощью if, elif, else проверяем в каком диапозоне число
@@ -185,8 +83,7 @@ else:
     print("Переменной нет в этом массиве")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_3.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin3.png)
 ## Выводы
 
 Проверяем есть ли введенное число в массиве с помощью if value in
@@ -213,8 +110,7 @@ else:
     print(f"Переменной нет в массиве и она равна {value}")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_4.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin4.png)
 ## Выводы
 
 Определяем четная переменная или нет и есть ли она в массиве
@@ -247,8 +143,7 @@ for i in range(10):
         break
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_5.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin5.png)
 ## Выводы
 
 Разные виды сравнений и операций
@@ -275,8 +170,7 @@ else:
     print(f"Буквы '{value}' нет в указанной строке")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_6.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin6.png)
 ## Выводы
 
 Проверка на наличие буквы в строке
@@ -293,8 +187,7 @@ for i in range(10, -1, -1):
     print(i, value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_7.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin7.png)
 ## Выводы
 
 Наглядная работа цикла for
@@ -321,8 +214,7 @@ while value < 20:
     print(value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_8.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin8.png)
 ## Выводы
 
 Проверки в цикле while
@@ -347,8 +239,7 @@ for i in range(10):
 print(value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_9.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin9.png)
 ## Выводы
 
 Вложенные циклы с условием внутри
@@ -377,8 +268,7 @@ else:
     print('В массиве все числа четные')
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_10.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin10.png)
 ## Выводы
 
 Проверка на наличие нечетного числа в массиве при помощи переменной flag (bool)
@@ -398,8 +288,7 @@ for i in range(26):
 print(result)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_11.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin11.png)
 ## Выводы
 
 Восстановление файла к предыдущему состоянию
@@ -412,8 +301,7 @@ for char in reversed("Hello World"):
     print(char)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_12.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin12.png)
 ## Выводы
 
 Программа использует функцию reversed() для переворота строки и выводит каждый символ строки на новой строке с помощью цикла for. Таким образом, фраза "Hello World" выводится в обратном порядке с переносом каждой буквы на новую строку.
@@ -445,9 +333,7 @@ else:
         print("от 6 до 10 включительно")
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_13.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_132.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin13.png)
 ## Выводы
 
 Программа проверяет, введено ли корректное число в диапазоне от 0 до 10. Если число находится в указанном диапазоне, программа определяет, в какой из трёх диапазонов оно попадает (0-3, 3-6, 6-10) и выводит соответствующее сообщение. Если введено некорректное значение, программа уведомляет об этом и завершает работу.
@@ -485,10 +371,9 @@ print(f"Заканчивается на 'end': {ends_with_end}")
 
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_14.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_142.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_143.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.2.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.3.png)
 ## Выводы
 
 Эта программа демонстрирует основные операции по манипулированию строками в Python:
@@ -504,13 +389,38 @@ print(f"Заканчивается на 'end': {ends_with_end}")
 Проверка начала и конца строки с использованием методов startswith() и endswith() — простой способ узнать, соответствует ли строка определённому шаблону.
 
 ## Самостоятельная работа №5
-### Настройка .gitignore
+### Составте программу, результатом которой будет данный вывод в консоль.
+
+string = 'hello'
+
+memory = ' world'
+
+counter = 0
+
+values = [0, 2, 4, 6, 8, 10]
+
+while counter != 10:
+
+if counter in values:
+
+print(string + memory)
+
+else:
+
+print(string)
+
+counter += 1
+
+string = string + ' world'
+
+memory = string
+
+print(memory)
+
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_15.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin15.png)
 ## Выводы
-
-gitignore
-message.txt
-17 кб
+В коде выполняется цикл, который увеличивает переменную string с добавлением к ней ' world' на каждой итерации. Если счётчик находится в списке значений [0, 2, 4, 6, 8, 10], выводится объединение переменных string и memory. В других случаях выводится только string. После завершения цикла переменная memory содержит итоговую строку.
+## Общий вывод 
+В ходе выполненения работы я научился использовать условные операторы и циклы в phyton.
