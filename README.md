@@ -62,8 +62,7 @@ else:
     print("Переменная больше 10")
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_2.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin2.png)
 ## Выводы
 
 Условиями, с помощью if, elif, else проверяем в каком диапозоне число
@@ -84,8 +83,7 @@ else:
     print("Переменной нет в этом массиве")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_3.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin3.png)
 ## Выводы
 
 Проверяем есть ли введенное число в массиве с помощью if value in
@@ -112,8 +110,7 @@ else:
     print(f"Переменной нет в массиве и она равна {value}")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_4.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin4.png)
 ## Выводы
 
 Определяем четная переменная или нет и есть ли она в массиве
@@ -146,8 +143,7 @@ for i in range(10):
         break
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_5.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin5.png)
 ## Выводы
 
 Разные виды сравнений и операций
@@ -174,8 +170,7 @@ else:
     print(f"Буквы '{value}' нет в указанной строке")
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_6.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin6.png)
 ## Выводы
 
 Проверка на наличие буквы в строке
@@ -192,8 +187,7 @@ for i in range(10, -1, -1):
     print(i, value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_7.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin7.png)
 ## Выводы
 
 Наглядная работа цикла for
@@ -220,8 +214,7 @@ while value < 20:
     print(value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_8.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin8.png)
 ## Выводы
 
 Проверки в цикле while
@@ -246,8 +239,7 @@ for i in range(10):
 print(value)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_9.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin9.png)
 ## Выводы
 
 Вложенные циклы с условием внутри
@@ -276,8 +268,7 @@ else:
     print('В массиве все числа четные')
     
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_10.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin10.png)
 ## Выводы
 
 Проверка на наличие нечетного числа в массиве при помощи переменной flag (bool)
@@ -297,8 +288,7 @@ for i in range(26):
 print(result)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_11.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin11.png)
 ## Выводы
 
 Восстановление файла к предыдущему состоянию
@@ -311,8 +301,7 @@ for char in reversed("Hello World"):
     print(char)
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_12.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin12.png)
 ## Выводы
 
 Программа использует функцию reversed() для переворота строки и выводит каждый символ строки на новой строке с помощью цикла for. Таким образом, фраза "Hello World" выводится в обратном порядке с переносом каждой буквы на новую строку.
@@ -344,9 +333,8 @@ else:
         print("от 6 до 10 включительно")
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_13.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_132.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin13.1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin13.2.png)
 ## Выводы
 
 Программа проверяет, введено ли корректное число в диапазоне от 0 до 10. Если число находится в указанном диапазоне, программа определяет, в какой из трёх диапазонов оно попадает (0-3, 3-6, 6-10) и выводит соответствующее сообщение. Если введено некорректное значение, программа уведомляет об этом и завершает работу.
@@ -384,10 +372,9 @@ print(f"Заканчивается на 'end': {ends_with_end}")
 
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_14.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_142.png)
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_143.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.2.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin14.3.png)
 ## Выводы
 
 Эта программа демонстрирует основные операции по манипулированию строками в Python:
@@ -433,8 +420,7 @@ print(memory)
 
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/git_Tema3_15.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin15.png)
 ## Выводы
 
 gitignore
