@@ -32,8 +32,7 @@ if __name__ == '__main__':
 main()
 
 ### Результат
- ![Меню](https://github.com/NikitaGerasimov0112358/moshi/raw/main/image/l4_screen1.jpg)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/l4_screen1.jpg)
 ## Выводы
 Код определяет функцию main, которая выполняет простое действие (сложение чисел). Затем, в блоке проверки if __name__ == 'main', происходит вызов этой функции, если скрипт запускается напрямую.
 
