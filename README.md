@@ -48,7 +48,7 @@ if __name__ == '__main__':
 print (main())
 
 ### Результат
- !![Меню](https://github.com/huddy20/Project/raw/main/image/l4_screen2.jpg)
+ !![Меню](https://github.com/huddy20/project/raw/main/scrin1/l4_screen2.jpg)
 
 ## Выводы
 Код определяет функцию main, которая возвращает результат сложения чисел. Вызов print(main()) выводит результат функции в консоль.
