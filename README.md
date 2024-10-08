@@ -248,7 +248,7 @@ most_frequent_visitor = check_counts.most_common(1)[0]
 total_checks, unique_visitors, most_frequent_visitor
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/l4_screen11.jpg)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/screen1.png)
 
 ## Выводы 
 Программа вычисляет и выводит данные чеков.
