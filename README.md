@@ -337,8 +337,6 @@ print(updated_grades_3)
 
 from collections import Counter
 
-
-# Function to transform the list into a set with the described rule
 def list_to_set(lst):
     counts = Counter(lst)
     result_set = set()
@@ -351,17 +349,16 @@ def list_to_set(lst):
     return result_set
 
 
-# Provided lists
+
 list_1 = [1, 1, 3, 3, 1]
 list_2 = [5, 5, 5, 5, 5, 5, 5]
 list_3 = [2, 2, 1, 2, 2, 5, 6, 7, 1, 3, 2, 2]
 
-# Convert lists to sets
+
 set_1 = list_to_set(list_1)
 set_2 = list_to_set(list_2)
 set_3 = list_to_set(list_3)
 
-# Output the results
 print(set_1)
 print(set_2)
 print(set_3)
