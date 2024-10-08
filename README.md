@@ -31,7 +31,7 @@ set_2 = {f'Red', 'Green', 'Blue', 'Red'}
 print(set_1 - set_2)
 
 ### Результат
-[![Меню](github.com/NikitaGerasimov0112358/project/blob/Тема-5/scrin/Снимок%20экрана%20(28).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(28).png)
 ## Выводы
 Работа с множествами вычитание одного из другого
 
