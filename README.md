@@ -49,7 +49,7 @@ access = response. get('access')
 print(key, access)
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(46).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок экрана(46).png)
 ## Выводы
 Код запрашивает у пользователя номер кабинета и проверяет, есть ли такой кабинет в словаре. Если номер существует, то программа выводит ключ и значение параметра access для этого кабинета.
 
