@@ -69,7 +69,7 @@ dict_maker(name='Михаил', age=31, weight=70, eyes_color='blue')
 
 pprint(my_dict)
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(47).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(47).png)
 
 ## Выводы
 Код создаёт словарь с помощью функции dict_maker(), которая принимает произвольное количество именованных аргументов (**kwargs) и добавляет их в существующий словарь my_dict с помощью метода .update().
@@ -85,7 +85,7 @@ print(result)
 print (list (result))
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(48).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(48).png)
 
 ## Выводы
 Код принимает строку 'HelloWorld' и преобразует её в кортеж с помощью функции tuple(), а затем выводит полученный кортеж, после снова печатает преобразованный кортеж, но уже как список с помощью функции list(), которая преобразует кортеж в список.
@@ -106,7 +106,7 @@ personal_info(*bob)
 
 ### Результат
 
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(49).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(49).png)
 ## Выводы
 Функция выводит на экран строку с информацией о человеке, используя переданные аргументы.
 
@@ -129,7 +129,7 @@ print (tuple_sort((5, 5, 3, 1, 9)))
 print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(50).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(50).png)
 
 ## Выводы
 Сортировка и возвращение кортежа
