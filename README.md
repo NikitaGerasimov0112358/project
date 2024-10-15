@@ -287,7 +287,7 @@ print("Кортеж:", numbers_tuple)
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin11.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(40).png)
 ## Выводы
 
 Восстановление файла к предыдущему состоянию
@@ -314,7 +314,7 @@ print(test_3)  # Ожидаемый результат: (2, 4, 6, 6, 4, 2)
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Scrin12.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(41).png)
 ## Выводы
 
 Программа использует функцию reversed() для переворота строки и выводит каждый символ строки на новой строке с помощью цикла for. Таким образом, фраза "Hello World" выводится в обратном порядке с переносом каждой буквы на новую строку.
