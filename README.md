@@ -10,12 +10,11 @@
 | Задание 3 | + | + |
 | Задание 4 | + | + |
 | Задание 5 | + | + |
-| Задание 6 | + |
-| Задание 7 | + |
-| Задание 8 | + |
-| Задание 9 | + |
-| Задание 10 | + |
-
+| Задание 6 | + | - |
+| Задание 7 | + | - |
+| Задание 8 | + | - |
+| Задание 9 | + | - |
+| Задание 10 | + | - |
 
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
@@ -24,121 +23,192 @@
 - к.э.н., доцент Панов М.А.
 
 ## Лабораторная работа №1
-### В школе, где вы учились, узнали, что вы крутой программист и попросили написать программу для учителей, которая будет при вводе кабинета писать для него ключ доступа и статус, занят кабинет или нет. 
-request = int(input('Введите номер кабинета: '))
-
-dictionary = {
-
-101: {'key': 1234, 'access': True},
-
-102: {'key': 1337, 'access': True},
-
-103: {'key': 8943, 'access': True},
-
-104: {'key': 5555, 'access': False},
-
-None: {'key': None, 'access': False},
-
-}
-
-response = dictionary.get(request)
-
-if not response:
-
-response = dictionary[None]
-
-key = response.get('key')
-
-access = response. get('access')
-
-print(key, access)
+### Составьте текстовый файл и положите его в одну директорию с программой на Python. Текстовый файл должен состоять минимум из двух строк. 
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(46).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/1t7.png)
+
 ## Выводы
-Код запрашивает у пользователя номер кабинета и проверяет, есть ли такой кабинет в словаре. Если номер существует, то программа выводит ключ и значение параметра access для этого кабинета.
+Создан файл txt
 
 ## Лабораторная работа №2
-### Алексей решил создать самый большой словарь в мире. Для этого он придумал функцию dict_maker (**kwargs), которая принимает неограниченное количество параметров «ключ: значение» и обновляет созданный им словарь my_dict, состоящий всего из одного элемента «first» со значением «so easy». Помогите Алексею создать данную функцию.
-from pprint import pprint
+### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
+f = open('input.txt', 'r')
 
-my_dict = {'first': 'so easy'}
+print(f.readline())
 
-def dict_maker(**kwargs) :
-
-my_dict.update(**kwargs)
-
-dict_maker(a1=1, a2=20, a3=54, a4=13)
-
-dict_maker(name='Михаил', age=31, weight=70, eyes_color='blue')
-
-pprint(my_dict)
+f.close()
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(47).png)
+ ![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/2t7.png)
 
 ## Выводы
-Код создаёт словарь с помощью функции dict_maker(), которая принимает произвольное количество именованных аргументов (**kwargs) и добавляет их в существующий словарь my_dict с помощью метода .update().
+Вывод первой строки из файла input.txt
 
 ## Лабораторная работа №3
-### Для решения некоторых задач бывает необходимо разложить строку на отдельные символы. Мы знаем что это можно сделать при помощи split(), у которого более гибкая настройка для разделения для этого, но если нам нужно посимвольно разделить строку без всяких условий, то для этого мы можем использовать кортежи (tuple). 
-input_string = 'HelloWorld'
+### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию open()/close().
+f = open('input.txt', 'r')
 
-result = tuple(input_string)
+print(f.readlines())
 
-print(result)
-
-print (list (result))
+f.close()
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(48).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/3t7.png)
 
 ## Выводы
-Код принимает строку 'HelloWorld' и преобразует её в кортеж с помощью функции tuple(), а затем выводит полученный кортеж, после снова печатает преобразованный кортеж, но уже как список с помощью функции list(), которая преобразует кортеж в список.
+Вывод всех строк из файла input.txt
   
 ## Лабораторная работа №4
-### Вовочка решил написать крутую функцию, которая будет писать имя, возраст и место работы, но при этом на вход этой функции будет поступать кортеж. Помогите Вовочке написать эту программу.
-def personal_info(name, age, company='unnamed' ):
+### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию with open().
+with open('input.txt', 'r') as f:
 
-print(f"Имя: {name} Возраст: {age} Компания: {company}")
-
-tom = ("Григорий", 22)
-
-personal_info(*tom)
-
-bob = ("Георгий", 41, "Yandex")
-
-personal_info(*bob)
+print(f.readlines())
 
 ### Результат
 
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(49).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/4t7.png)
 ## Выводы
-Функция выводит на экран строку с информацией о человеке, используя переданные аргументы.
+Вывод всех строк файла input.txt в массиве используя with open().
 
 ## Лабораторная работа №5
-### Для сопровождения первых лиц государства X нужен кортеж, но никто не может определиться с порядком машин, поэтому вам нужно написать функцию, которая будет сортировать кортеж, состоящий из целых чисел по возрастанию, и возвращает его. Если хотя бы один элемент не является целым числом, то функция возвращает исходный кортеж.
-def tuple_sort(tpl):
+### Напишите программу, которая выведет каждую строку из вашего файла отдельно, при этом используйте конструкцию with open().
+with open('input.txt') as f:
 
-for elm in tpl:
-    
-if not isinstance(elm, int):
-        
-return tpl
-            
-return tuple(sorted(tpl))
+for line in f:
 
-if __name__ == '__main__':
-
-print (tuple_sort((5, 5, 3, 1, 9)))
-    
-print(tuple_sort((5, 5, 2.1, '1', 9)))
+print(line)
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(50).png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/5t7.png)
 
 ## Выводы
-Сортировка и возвращение кортежа
+Вывод всех строк файла input.txt отдельно используя with open().
 
+## Лабораторная работа №6
+### Напишите программу, которая будет добавлять новую строку в ваш файл, а потом выведет полученный файл в консоль. Вывод можно осуществлять любым способом. Обязательно проверьте сам файл, чтобы изменения в нем тоже отображались.
+with open('input.txt', 'a+') as f:
+
+f.write('\nNovaya stroka')
+
+with open('input.txt') as f:
+
+for line in f:
+
+print(line)
+
+### Результат
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t7.png)
+
+## Выводы
+Создание новой строки в файле input.txt и вывод всех строк
+
+## Лабораторная работа №7
+### Напишите программу, которая перепишет всю информацию, которая была у вас в файле до этого, например напишет любые данные из произвольно вами составленного списка. Также не забудьте проверить что измененная вами информация сохранилась в файле.
+lines = ['Kolya', 'Wasya', 'Petya']
+
+with open('input.txt', 'w') as f:
+
+for line in lines:
+
+f.write('\n' + line + ' is legend')
+
+print('Done')
+
+### Результат
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7.1t7.png)
+
+До
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7.2t7.png)
+После
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7.3t7.png)
+
+## Выводы
+Замена информации в файле input.txt
+
+## Лабораторная работа №8
+### Выберите любую папку на своем компьютере, имеющую вложенные директории. Выведите на печать в терминал ее содержимое, как и всех подкаталогов при помощи функции print_docs(directory).
+import os
+
+def print_docs(directory):
+
+all_files = os.walk(directory)
+
+for catalog in all_files:
+
+print(f'Папка {catalog[0]} содержит:')
+
+print(f'Директории: {", ".join(catalog[1])}')
+
+print(f'Файлы: {", ".join(catalog[2])}')
+
+print('-' * 40)
+
+print_docs('C:\\Users\\User\\Documents')
+
+### Результат
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/8t7.png)
+
+## Выводы
+Выводим директории папки и файлы в них
+
+## Лабораторная работа №9
+### Требуется реализовать функцию, которая выводит слово, имеющее максимальную длину (или список слов, если таковых несколько). Проверьте работоспособность программы на своем наборе данных
+
+def longest_words(file):
+
+with open(file, encoding='utf-8') as f:
+
+words = f.read().split()
+
+max_length = len(max(words, key=len))
+
+for word in words:
+
+if len(word) == max_length:
+
+sought_words = word
+
+if len(sought_words) == 1:
+
+return sought_words[0]
+
+return sought_words
+
+print(longest_words('input.txt'))
+
+### Результат
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/9t7.png)
+
+## Выводы
+Выводим самое длинное слово из файла input.txt
+
+## Лабораторная работа №10
+### Требуется создать csv-файл «rows_300.csv» со следующими столбцами: № - номер по порядку (от 1 до 300); Секунда – текущая секунда на вашем ПК; Микросекунда – текущая миллисекунда на часах. Для наглядности на каждой итерации цикла искусственно приостанавливайте скрипт на 0,01 секунды.
+
+import csv
+
+import datetime
+
+import time
+
+with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
+
+writer = csv.writer(f)
+
+writer.writerow(['№', 'Секунда', 'Микросекунда'])
+
+for line in range(1, 301):
+
+writer.writerow([line, datetime.datetime.now().second, datetime.datetime.now().microsecond])
+
+time.sleep(0.01)
+
+### Результат
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10.1t7.png)
+![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10.2t7.png)
+
+## Выводы
+Создание csv-файла 
 ## Самостоятельная работа №1
 ### 1) Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
 from collections import Counter
