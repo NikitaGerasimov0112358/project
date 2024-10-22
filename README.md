@@ -160,6 +160,7 @@ print(f"Самое часто встречающееся слово: {most_commo
 
 ### Результат.
 ![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(52).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(53).png)
 ## Выводы
 
 Данная задача продемонстрировала базовые операции с вводом данных в Python, а также показала, как преобразовать строку чисел в другие структуры данных, такие как список и кортеж. Это полезно для получения и дальнейшей обработки данных от пользователя в различных форматах.
@@ -198,7 +199,7 @@ while True:
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(41).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(54).png)
 ## Выводы
 
 Данная задача показала, что несмотря на неизменяемость кортежей, их можно "модифицировать" через создание новых кортежей. Это позволило понять, как можно реализовать логику изменений кортежей с сохранением их неизменяемости.
@@ -232,7 +233,7 @@ analyze_text('input.txt')
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(42).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(56).png)
 ## Выводы
 
 Задача помогает закрепить навыки работы со строками и словарями. Также она показывает, как эффективно работать с частотными подсчетами и сортировкой данных в Python, что является важным аспектом обработки данных.
@@ -265,7 +266,7 @@ print(result)
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(43).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(57).png)
 
 ## Выводы
 
@@ -295,7 +296,7 @@ count_unique_words('input.txt')
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(44).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(58).png)
 ## Выводы
 Задача показала важность работы с множествами для получения уникальных элементов. Она продемонстрировала полезный способ обработки текстов, который может быть использован в текстовой аналитике для получения статистики по данным.
 ## Общий вывод 
