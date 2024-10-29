@@ -147,7 +147,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(40).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(59).png)
 ## Выводы
 В данной задаче был создан класс Animal с двумя атрибутами: species (вид) и age (возраст). Объект dog был создан на основе этого класса, и его атрибуты были успешно выведены в консоль. Это задание помогает понять основы создания классов и объектов в Python.
 
@@ -167,7 +167,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(41).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(60).png)
 ## Выводы
 
 Здесь класс Animal был дополнен методом make_sound, который выводит сообщение о звуке, издаваемом животным. Это задание показало, как добавлять методы к классу для выполнения определенных действий.
@@ -198,7 +198,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(42).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(61).png)
 ## Выводы
 Здесь был создан подкласс Dog, который наследует класс Animal. В классе Dog добавлен метод bark, который выводит сообщение "Woof!". Это задание показало, как использовать наследование для создания более специфичных классов на основе более общих.
 
@@ -229,7 +229,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(43).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(62).png)
 
 ## Выводы
 
@@ -258,7 +258,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 
 
 ### Результат.
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(44).png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(63).png)
 ## Выводы
 Здесь был продемонстрирован полиморфизм. Классы Dog и Cat переопределили метод make_sound класса Animal, каждый со своим собственным звуком. Полиморфизм позволяет вызывать один и тот же метод для различных объектов, обеспечивая гибкость и расширяемость кода.
 
