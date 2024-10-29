@@ -137,7 +137,7 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 ## Самостоятельная работа №1
 ### 1) Самостоятельно создайте класс и его объект. Они должны отличаться от тех, что указаны в методичке и лабораторных заданиях.
 
-  lass Animal:
+  class Animal:
       def __init__(self, species, age):
           self.species = species
           self.age = age
