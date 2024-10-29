@@ -137,13 +137,13 @@ print(tuple_sort((5, 5, 2.1, '1', 9)))
 ## Самостоятельная работа №1
 ### 1) Самостоятельно создайте класс и его объект. Они должны отличаться от тех, что указаны в методичке и лабораторных заданиях.
 
-lass Animal:
-    def __init__(self, species, age):
-        self.species = species
-        self.age = age
-
-dog = Animal("Dog", 5)
-print(f"Species: {dog.species}, Age: {dog.age}")
+  lass Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
+  
+  dog = Animal("Dog", 5)
+  print(f"Species: {dog.species}, Age: {dog.age}")
 
 
 ### Результат.
@@ -153,16 +153,16 @@ print(f"Species: {dog.species}, Age: {dog.age}")
 
 ## Самостоятельная работа №2
 ### 2)	Самостоятельно создайте атрибуты и методы для ранее созданного класса.
-class Animal:
-    def __init__(self, species, age):
-        self.species = species
-        self.age = age
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
     
-    def make_sound(self):
-        print(f"The {self.species} makes a sound.")
+      def make_sound(self):
+          print(f"The {self.species} makes a sound.")
 
-dog = Animal("Dog", 5)
-dog.make_sound()
+  dog = Animal("Dog", 5)
+  dog.make_sound()
 
 
 
@@ -175,25 +175,25 @@ dog.make_sound()
 ## Самостоятельная работа №3
 ### 3)	Самостоятельно реализуйте наследование, продолжая работать с ранее созданным классом.
 
-class Animal:
-    def __init__(self, species, age):
-        self.species = species
-        self.age = age
-
-    def make_sound(self):
-        print(f"The {self.species} makes a sound.")
-
-class Dog(Animal):
-    def __init__(self, age, breed):
-        super().__init__("Dog", age)
-        self.breed = breed
-    
-    def bark(self):
-        print("Woof!")
-
-labrador = Dog(3, "Labrador")
-labrador.make_sound()
-labrador.bark()
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.age = age
+  
+      def make_sound(self):
+          print(f"The {self.species} makes a sound.")
+  
+  class Dog(Animal):
+      def __init__(self, age, breed):
+          super().__init__("Dog", age)
+          self.breed = breed
+      
+      def bark(self):
+          print("Woof!")
+  
+  labrador = Dog(3, "Labrador")
+  labrador.make_sound()
+  labrador.bark()
 
 
 
@@ -205,25 +205,25 @@ labrador.bark()
 ## Самостоятельная работа №4
 ### 4)	Самостоятельно реализуйте инкапсуляцию, продолжая работать с ранее созданным классом.
 
-class Animal:
-    def __init__(self, species, age):
-        self.species = species
-        self.__age = age  # Инкапсуляция атрибута age
-    
-    def get_age(self):
-        return self.__age
-    
-    def set_age(self, age):
-        if age >= 0:
-            self.__age = age
-        else:
-            print("Invalid age")
-
-dog = Animal("Dog", 5)
-print(dog.get_age())
-dog.set_age(6)
-print(dog.get_age())
-dog.set_age(-1)  # Неправильный возраст
+  class Animal:
+      def __init__(self, species, age):
+          self.species = species
+          self.__age = age  # Инкапсуляция атрибута age
+      
+      def get_age(self):
+          return self.__age
+      
+      def set_age(self, age):
+          if age >= 0:
+              self.__age = age
+          else:
+              print("Invalid age")
+  
+  dog = Animal("Dog", 5)
+  print(dog.get_age())
+  dog.set_age(6)
+  print(dog.get_age())
+  dog.set_age(-1)  # Неправильный возраст
 
 
 
@@ -238,23 +238,22 @@ dog.set_age(-1)  # Неправильный возраст
 ## Самостоятельная работа №5
 ### 5) Самостоятельно реализуйте полиморфизм. Он должен отличаться от примеров в методичке.
 
-class Animal:
-    def make_sound(self):
-        print("Some generic animal sound")
+  class Animal:
+      def make_sound(self):
+          print("Some generic animal sound")
+  
+  class Dog(Animal):
+      def make_sound(self):
+          print("Woof!")
+  
+  class Cat(Animal):
+      def make_sound(self):
+          print("Meow!")
 
-class Dog(Animal):
-    def make_sound(self):
-        print("Woof!")
-
-class Cat(Animal):
-    def make_sound(self):
-        print("Meow!")
-
-# Создание объектов и демонстрация полиморфизма
-animals = [Dog(), Cat(), Animal()]
-
-for animal in animals:
-    animal.make_sound()
+  animals = [Dog(), Cat(), Animal()]
+  
+  for animal in animals:
+      animal.make_sound()
 
 
 
