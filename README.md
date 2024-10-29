@@ -197,7 +197,7 @@ for shape in shapes:
 
 ## Самостоятельная работа №1
 ### 1) Самостоятельно создайте класс и его объект. Они должны отличаться от тех, что указаны в методичке и лабораторных заданиях.
-
+```python
   class Animal:
       def __init__(self, species, age):
           self.species = species
@@ -205,7 +205,7 @@ for shape in shapes:
   
   dog = Animal("Dog", 5)
   print(f"Species: {dog.species}, Age: {dog.age}")
-
+```
 
 ### Результат.
 ![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/(59).png)
@@ -214,6 +214,7 @@ for shape in shapes:
 
 ## Самостоятельная работа №2
 ### 2)	Самостоятельно создайте атрибуты и методы для ранее созданного класса.
+```python
   class Animal:
       def __init__(self, species, age):
           self.species = species
@@ -224,7 +225,7 @@ for shape in shapes:
 
   dog = Animal("Dog", 5)
   dog.make_sound()
-
+```
 
 
 ### Результат.
@@ -235,7 +236,7 @@ for shape in shapes:
 
 ## Самостоятельная работа №3
 ### 3)	Самостоятельно реализуйте наследование, продолжая работать с ранее созданным классом.
-
+```python
   class Animal:
       def __init__(self, species, age):
           self.species = species
@@ -255,7 +256,7 @@ for shape in shapes:
   labrador = Dog(3, "Labrador")
   labrador.make_sound()
   labrador.bark()
-
+```
 
 
 ### Результат.
@@ -265,7 +266,7 @@ for shape in shapes:
 
 ## Самостоятельная работа №4
 ### 4)	Самостоятельно реализуйте инкапсуляцию, продолжая работать с ранее созданным классом.
-
+```python
   class Animal:
       def __init__(self, species, age):
           self.species = species
@@ -285,7 +286,7 @@ for shape in shapes:
   dog.set_age(6)
   print(dog.get_age())
   dog.set_age(-1)  # Неправильный возраст
-
+```
 
 
 
@@ -298,7 +299,7 @@ for shape in shapes:
 
 ## Самостоятельная работа №5
 ### 5) Самостоятельно реализуйте полиморфизм. Он должен отличаться от примеров в методичке.
-
+```python
   class Animal:
       def make_sound(self):
           print("Some generic animal sound")
@@ -315,7 +316,7 @@ for shape in shapes:
   
   for animal in animals:
       animal.make_sound()
-
+```
 
 
 ### Результат.
