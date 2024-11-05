@@ -244,7 +244,7 @@ class Gardener:
 ```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/6t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/6.png)
 ## Выводы
 Класс Tomato:
 
@@ -267,7 +267,7 @@ class Gardener:
 ```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/7t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/1.png)
 ## Выводы
 Выводсправочной информации.
 
@@ -277,7 +277,7 @@ class Gardener:
 bush = TomatoBush(4)
 ```
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/8t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/2.png)
 ## Выводы
 Создание куста с 4 томатами
 
@@ -289,8 +289,7 @@ gardener = Gardener("Иван", bush)
 ```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/9t9.png)
-
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/3.png)
 ## Выводы 
 Создание садовника.
 
@@ -305,7 +304,7 @@ for _ in range(3):  # трёхкратный уход, чтобы достичь
 ```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/4.png)
 ## Выводы
 Садовник ухаживает за кустом несколько раз.
 
@@ -316,7 +315,7 @@ gardener.harvest()
 ```
 
 ### Результат.
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/10t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/5.png)
 ## Выводы
 Садовник пытается собрать урожай
 
