@@ -21,26 +21,26 @@
 ### Допустим, что вы решили оригинально и немного странно познакомится с человеком. Для этого у вас должен быть написан свой класс на Python, который будет проверять угадал ваше имя человек или нет. Для этого создайте класс, указав в свойствах только имя. Дальше создайте функцию init (), а в ней сделайте проверку на то угадал человек ваше имя или нет. Также можете проверить что будет, если в этой функции указав атрибут, который не указан в вашем классе, например, попробуйте вызвать фамилию.
 
 ```python
-class Danil:
-        __slots__ = ['name']
+class Nikita:
+    __slots__ = ['name']
 
-        def __init__(self, name):
-            if name == 'Данил':
-                self.name = f"Да, я {name}"
-            else:
-                self.name = f"Я не {name}, а Данил"
+    def __init__(self, name):
+        if name == 'Никита':
+            self.name = f"Да, я {name}"
+        else:
+            self.name = f"Я не {name}, а Никита"
 
 
-person1 = Danil('Алексей')
-person2 = Danil('Данил')
+person1 = Nikita('Алексей')
+person2 = Nikita('Никита')
 print(person1.name)
 print(person2.name)
 
-person2.surname = 'Холкин'
+person2.surname = 'Герасимов'
 ```
 
 ### Результат
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/1t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/7.png)
 
 ## Выводы
 Создание класса с одним свойством. Создание функции init(). Проверка, что будет если указать несществующий атрибут класса.
