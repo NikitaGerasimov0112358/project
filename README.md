@@ -30,7 +30,6 @@ for item in numbers:
 
 ## Выводы
 Создание простого итератора.
-
 ## Лабораторная работа №2
 ### 2)	Класс итератор с гибкой настройкой и удобными применением
 ```python
@@ -54,7 +53,7 @@ if __name__ == '__main__':
         print(i)
 ```
 ### Результат
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/2t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(9).png)
 
 ## Выводы
 Создание класса итератора.
