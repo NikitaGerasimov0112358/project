@@ -26,7 +26,7 @@ for item in numbers:
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/7.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок экрана (8).png)
 
 ## Выводы
 Создание простого итератора.
