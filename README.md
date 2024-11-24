@@ -70,7 +70,7 @@ for i in a:
 ```
 
 ### Результат
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/3t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(10).png)
 
 ## Выводы
 Простой генератор списка.
@@ -92,7 +92,7 @@ for i in b:
 
 ### Результат
 
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/4t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(11).png)
 ## Выводы
 Генратор с вырвжением.
 ## Лабораторная работа №5
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 ```
 
 ### Результат
-![Меню](https://github.com/DanilAlexeevich/DanilKholkin/raw/main/img/5t9.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(12).png)
 
 ## Выводы
 Счетчик с выражением yield.
@@ -133,7 +133,7 @@ print(f"200-е число Фибоначчи: {fib_sequence[-1]}")
 ```
 
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/screen1.png)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(13).png)
 
 ## Выводы 
 Программа вычисляет n-ое число Фибаначчи.
@@ -160,7 +160,7 @@ print("Числа Фибоначчи записаны в файл 'fib.txt'.")
 
 ```
 ### Результат
-![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/l4_screen12.jpg)
+![Меню](https://github.com/NikitaGerasimov0112358/project/raw/main/scrin/Снимок%20экрана%20(14).png)
 
 ## Вывод
 Программа выводит n чисел последовательности Фибоначчи в тестовый файл.
